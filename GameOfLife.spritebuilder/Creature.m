@@ -2,7 +2,7 @@
 //  Creature.m
 //  GameOfLife
 //
-//  Created by Ruben on 7/1/14.
+//  Created by Ruben on 7/3/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 

@@ -1,8 +1,8 @@
-    //
+//
 //  Grid.m
 //  GameOfLife
 //
-//  Created by Ruben on 7/1/14.
+//  Created by Ruben on 7/3/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
@@ -18,7 +18,6 @@ static const int GRID_COLUMNS = 10;
     float _cellWidth;
     float _cellHeight;
 }
-
 - (void)onEnter
 {
     [super onEnter];
@@ -65,5 +64,4 @@ static const int GRID_COLUMNS = 10;
         y += _cellHeight;
     }
 }
-
 @end
