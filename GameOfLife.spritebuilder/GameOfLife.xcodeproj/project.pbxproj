@@ -131,14 +131,6 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				4554381419638FD6008B2259 /* Creature.h */,
-				4554381519638FD6008B2259 /* Creature.m */,
-				4554381619638FD6008B2259 /* Grid.h */,
-				4554381719638FD6008B2259 /* Grid.m */,
-				B737893D1807617C0076A88C /* AppDelegate.h */,
-				B737893E1807617C0076A88C /* AppDelegate.m */,
-				B7378992180767190076A88C /* MainScene.h */,
-				B7378993180767190076A88C /* MainScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -223,6 +215,14 @@
 		B77F1CCF17B978D8009739AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4554381419638FD6008B2259 /* Creature.h */,
+				4554381519638FD6008B2259 /* Creature.m */,
+				4554381619638FD6008B2259 /* Grid.h */,
+				4554381719638FD6008B2259 /* Grid.m */,
+				B737893D1807617C0076A88C /* AppDelegate.h */,
+				B737893E1807617C0076A88C /* AppDelegate.m */,
+				B7378992180767190076A88C /* MainScene.h */,
+				B7378993180767190076A88C /* MainScene.m */,
 				B73789851807631A0076A88C /* main.m */,
 				B73789861807631A0076A88C /* Prefix.pch */,
 			);
