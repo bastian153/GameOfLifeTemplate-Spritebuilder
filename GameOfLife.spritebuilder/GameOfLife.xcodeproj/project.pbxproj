@@ -131,10 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				45543833196C2E43008B2259 /* AppDelegate.m */,
-				45543834196C2E43008B2259 /* main.m */,
 				45543835196C2E43008B2259 /* MainScene.h */,
 				45543836196C2E43008B2259 /* MainScene.m */,
-				45543837196C2E43008B2259 /* Prefix.pch */,
 				4554384B1974BA9C008B2259 /* Grid.h */,
 				4554384C1974BA9C008B2259 /* Grid.m */,
 				4554384E1974BAC0008B2259 /* Creature.h */,
@@ -223,6 +221,8 @@
 		B77F1CCF17B978D8009739AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45543837196C2E43008B2259 /* Prefix.pch */,
+				45543834196C2E43008B2259 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
