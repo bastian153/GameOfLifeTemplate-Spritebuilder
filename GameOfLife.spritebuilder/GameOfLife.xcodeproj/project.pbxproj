@@ -10,6 +10,8 @@
 		45543838196C2E43008B2259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45543833196C2E43008B2259 /* AppDelegate.m */; };
 		45543839196C2E43008B2259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45543834196C2E43008B2259 /* main.m */; };
 		4554383A196C2E43008B2259 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 45543836196C2E43008B2259 /* MainScene.m */; };
+		455438431974B725008B2259 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 455438401974B725008B2259 /* Creature.m */; };
+		455438441974B725008B2259 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 455438421974B725008B2259 /* Grid.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -62,6 +64,10 @@
 		45543835196C2E43008B2259 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Source/MainScene.h; sourceTree = "<group>"; };
 		45543836196C2E43008B2259 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScene.m; path = Source/MainScene.m; sourceTree = "<group>"; };
 		45543837196C2E43008B2259 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = "<group>"; };
+		4554383F1974B725008B2259 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		455438401974B725008B2259 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
+		455438411974B725008B2259 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		455438421974B725008B2259 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -167,6 +173,10 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
+				4554383F1974B725008B2259 /* Creature.h */,
+				455438401974B725008B2259 /* Creature.m */,
+				455438411974B725008B2259 /* Grid.h */,
+				455438421974B725008B2259 /* Grid.m */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
@@ -340,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455438441974B725008B2259 /* Grid.m in Sources */,
+				455438431974B725008B2259 /* Creature.m in Sources */,
 				4554383A196C2E43008B2259 /* MainScene.m in Sources */,
 				45543839196C2E43008B2259 /* main.m in Sources */,
 				45543838196C2E43008B2259 /* AppDelegate.m in Sources */,
