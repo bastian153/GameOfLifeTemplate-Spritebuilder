@@ -2,7 +2,7 @@
 //  Grid.m
 //  GameOfLife
 //
-//  Created by Ruben on 7/14/14.
+//  Created by Ruben on 7/8/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 

@@ -23,9 +23,7 @@
     if (self) {
         _timer = [[CCTimer alloc] init];
     }
-    
-    NSLog(@"hahahaha\n");
-    
+        
     return self;
 }
 
