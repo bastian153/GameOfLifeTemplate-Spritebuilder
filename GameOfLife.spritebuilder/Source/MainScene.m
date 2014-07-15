@@ -24,6 +24,8 @@
         _timer = [[CCTimer alloc] init];
     }
     
+    NSLog(@"hahahaha\n");
+    
     return self;
 }
 
